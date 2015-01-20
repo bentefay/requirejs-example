@@ -1,20 +1,4 @@
-﻿//require js config 
-
-require.config({
-    baseUrl: "../../",
-    paths: {
-        js: "widget1/js"
-    },
-    urlArgs: "cachebust=" + (new Date()).getTime(),
-    map: {
-        '*': {
-            'css': 'require/plugins/require-css/css',
-            'text': 'require/plugins/text'
-        }
-    }
-});
-
-//main module 
+﻿//main module 
 define(function(require) {
 
     //use the simplified syntax to add dependencies 

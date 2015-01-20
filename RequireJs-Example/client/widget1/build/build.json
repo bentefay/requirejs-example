@@ -2,7 +2,7 @@
     "baseUrl": "../../",
     "name": "js/main",
     "include": [
-        "require/require"
+        "require/require", "widget1/js/config.js"
     ],
     "exclude": [ ],
     "optimize": "uglify2",
@@ -10,5 +10,5 @@
     "insertRequire": [
         "js/main"
     ],
-    "mainConfigFile": "../js/main.js"
+    "mainConfigFile": "../js/config.js"
 }
