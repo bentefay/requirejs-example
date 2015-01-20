@@ -1,0 +1,1 @@
+..\..\node\node.exe ..\..\require\r.js -o build.json
