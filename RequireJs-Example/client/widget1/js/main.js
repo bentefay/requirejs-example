@@ -2,11 +2,11 @@
 define(function(require) {
 
     //use the simplified syntax to add dependencies 
-    var data = require("js/data");
-    var alerter = require("js/alerter");
+    var data = require("./data");
+    var alerter = require("./alerter");
     var $ = require("libs/jquery-1.11.2.min");
-    var html = require("text!js/main.html");
-    require("css!js/main");
+    var html = require("text!./main.html");
+    require("css!./main");
 
     $("body").append(html);
 
