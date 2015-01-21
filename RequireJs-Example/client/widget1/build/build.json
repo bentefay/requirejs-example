@@ -2,13 +2,13 @@
     "baseUrl": "../../",
     "name": "js/main",
     "include": [
-        "require/require", "widget1config.js"
+        "require/require", "widget1.js"
     ],
     "exclude": [ ],
     "optimize": "uglify2",
-    "out": "widget1.js",
+    "out": "../../widget1.min.js", /* relative to build.json */
     "insertRequire": [
         "js/main"
     ],
-    "mainConfigFile": "../../widget1config.js"
+    "mainConfigFile": "../../widget1.js" /* relative to build.json */
 }
