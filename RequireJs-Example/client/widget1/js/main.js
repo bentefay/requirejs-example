@@ -8,9 +8,7 @@ define(function(require) {
     var html = require("text!./main.html");
     require("css!./main");
 
-    $("body").append(html);
-
-    //call a function on each module    
-    alerter.writeLog("Starting app");
-    data.get("getmovies2", { id: 25 });
+    $("body").append(html);    
+    alerter.writeLog("Two working :)");
+    data.get("Three");
 });

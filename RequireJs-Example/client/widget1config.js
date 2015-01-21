@@ -1,5 +1,4 @@
 ﻿require.config({
-    baseUrl: "../../",
     urlArgs: "cachebust=" + (new Date()).getTime(),
     paths: {
       js: "widget1/js"

@@ -59,7 +59,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="client\widget1\js\config.js" />
+    <Content Include="client\widget1config.js" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -69,15 +69,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="client\build.bat" />
     <None Include="client\widget1\build\build.bat" />
-    <Content Include="client\widget1\test\index_debug.html" />
+    <Content Include="test\index_debug.html" />
     <Content Include="client\libs\jquery-1.11.2.min.js" />
     <Content Include="client\widget1\js\main.html" />
     <Content Include="client\require\plugins\require-css\css-builder.js" />
     <Content Include="client\require\plugins\require-css\css.js" />
     <Content Include="client\require\plugins\require-css\css.min.js" />
-    <Content Include="client\widget1\test\index.html" />
+    <Content Include="test\index.html" />
     <Content Include="client\widget1\js\alerter.js" />
     <Content Include="client\widget1\js\data.js" />
     <Content Include="client\widget1\js\main.css" />
