@@ -60,8 +60,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="client\require\plugins\require-css\normalize.js" />
-    <Content Include="client\widget1.js" />
+    <Content Include="client\require\plugins\require-less\less-builder.js" />
+    <Content Include="client\require\plugins\require-less\less.js" />
+    <Content Include="client\require\plugins\require-less\lessc.js" />
+    <Content Include="client\require\plugins\require-less\normalize.js" />
+    <Content Include="client\widget1\widget1.js" />
+    <Content Include="client\widget1\widget1.min.js">
+      <DependentUpon>widget1.js</DependentUpon>
+    </Content>
     <Content Include="packages.config" />
+    <Content Include="client\widget1\widget1.min.js.map">
+      <DependentUpon>widget1.min.js</DependentUpon>
+    </Content>
+    <Content Include="client\require\plugins\require-less\LICENSE" />
+    <Content Include="client\node\install packages.bat" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
