@@ -3,11 +3,11 @@
     "mainConfigFile": "../widget1.js",
     "out": "../widget1.min.js",
     /* Remaining paths are relative to mainConfigFile */
-    "name": "js/main",
     "include": [
         "require/require",
         "widget1.js"
     ],
+    namespace:  "widget1",
     "exclude": [ ],
     "optimize": "uglify2"
 }
